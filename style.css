@@ -1,0 +1,150 @@
+/* font-family: 'Open Sans', sans-serif; */
+.container {
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	position: relative;
+	width: 100%;
+}
+
+img {
+	width: 40%;
+	height: auto;
+	position: relative;
+}
+
+.odin {
+	position: absolute;
+	top: 205px;
+	left: 140px;
+	display: flex;
+}
+
+.odin-image {
+	width: 50px;
+}
+
+.background {
+	background-color: black;
+	width: 39.5%;
+	height: 180px;
+	z-index: 1;
+	opacity: 0.5;
+	display: flex;
+	flex-flow: row;
+	justify-content: start;
+	position: absolute;
+	top: 30%;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 100 / 29;
+}
+
+.flex-item {
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	opacity: 1.5;
+	z-index: 1;
+	font-size: 80px;
+}
+
+
+h1 {
+	text-align: center;
+	align-self: flex-start;
+	display: flex;
+	z-index: 1;
+	font-size: 100px;
+	font-family: 'Skranji', cursive;
+	color: white;
+	font-weight: 100;
+}
+
+.main-content {
+	text-align: left;
+	margin-top: 100px;
+	margin-left: 20px;
+	width: 100%;
+	aspect-ratio: 100 / 29;
+}
+
+.form-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-top: 100px;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	column-gap: 50px;
+}
+
+.bottom-inputs {
+	margin-left: 40px;
+}
+
+input {
+	width: 300px;
+	height: 30px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input:focus {
+	border-color: rgb(0, 128, 255);
+}
+
+label {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(129, 119, 119);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+body {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #ccc;
+}
+
+button {
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 8px;
+	background-color: #526e2a;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	font-size: large;
+}
+
+a {
+	color: #526e2a;
+	text-decoration: none;
+	font-weight: bolder;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
